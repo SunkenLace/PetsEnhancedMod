@@ -1,4 +1,4 @@
-Pets Enhanced - A Pet Mechanic Overhaul is a mod that enhances the Pet experience, making pets able to learn skills as well as improving their AI(Any pet).
+Pets Enhanced - A Pet Mechanic Overhaul is a mod that enhances the pet experience, making pets able to learn skills as well as improving their AI(Any pet).
 
 New additions:
 - Pet UI and Status Window (gamepad compatible).
@@ -9,6 +9,7 @@ New additions:
 <img width="2100" height="600" alt="image" src="https://github.com/user-attachments/assets/8906da75-e039-45c8-9f05-dfff6d614243" />
 
 This mod is currently compatible with all mod packs out there, as such, feel free to include it into your collection!
+
 This mod is also compatible with expansion maps and is able to interact with them no problem.
 
 
