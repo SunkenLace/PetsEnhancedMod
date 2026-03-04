@@ -1,0 +1,459 @@
+﻿{
+    "Format": "2.9.0",
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [ "AnimalShop", "Items" ],
+      "Entries": {
+        "SunkenLace.PetsEnhancedMod.CatTreats": {
+          "ItemId": "(O)SunkenLace.PetsEnhancedMod.CatTreats",
+          "Price": 30,
+          "AvoidRepeat": true
+        },
+        "SunkenLace.PetsEnhancedMod.DogTreats": {
+          "ItemId": "(O)SunkenLace.PetsEnhancedMod.DogTreats",
+          "Price": 30,
+          "AvoidRepeat": true
+        },
+        "SunkenLace.PetsEnhancedMod.CrunchyTreats": {
+          "ItemId": "(O)SunkenLace.PetsEnhancedMod.CrunchyTreats",
+          "Price": 30,
+          "AvoidRepeat": true
+        },
+        "SunkenLace.PetsEnhancedMod.PetManual": {
+          "ItemId": "(T)SunkenLace.PetsEnhancedMod.PetManual",
+          "Price": 7000,
+          "AvoidRepeat": true
+        },
+        "SunkenLace.PetsEnhancedMod.PetBackpack": {
+          "ItemId": "(O)SunkenLace.PetsEnhancedMod.PetBackpack",
+          "Price": 3000,
+          "AvoidRepeat": true
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [ "AnimalShop", "Items" ],
+      "Entries": {
+        "SunkenLace.PetsEnhancedMod.PetFlute": {
+          "ItemId": "(T)SunkenLace.PetsEnhancedMod.PetFlute",
+          "Price": 10000,
+          "AvoidRepeat": true,
+          "Condition": "PLAYER_HAS_MAIL Any SunkenLace.PetsEnhancedMod.GiftPetFluteMail Received"
+        },
+        "SunkenLace.PetsEnhancedMod.LuxuryCollar": {
+          "ItemId": "(O)SunkenLace.PetsEnhancedMod.LuxuryCollar",
+          "Price": 12000,
+          "AvoidRepeat": true,
+          "Condition": "PLAYER_HAS_MAIL Any SunkenLace.PetsEnhancedMod.GiftLuxuryCollarRecipeMail Received"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "SunkenLace.PetsEnhancedMod.PetBackpack": {
+          "Name": "SunkenLace.PetsEnhancedMod.PetBackpack",
+          "Displayname": "{{Sunken_Lace.PetsEnhancedCode/PetBackpackDisplayName}}",
+          "Description": "{{Sunken_Lace.PetsEnhancedCode/PetBackpackDescription}}",
+          "Type": "Object",
+          "Price": 2500,
+          "Texture": "Mods/SunkenLace.PetsEnhancedMod/Textures/Items/ItemSprites",
+          "SpriteIndex": 9,
+          "ExcludeFromShippingCollection": true,
+          "IsDrink": false,
+          "CanBeGivenAsGift": false,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromFishingCollection": true
+        },
+        "SunkenLace.PetsEnhancedMod.DogTreats": {
+          "Name": "SunkenLace.PetsEnhancedMod.DogTreats",
+          "Displayname": "{{Sunken_Lace.PetsEnhancedCode/DogTreatsDisplayName}}",
+          "Description": "{{Sunken_Lace.PetsEnhancedCode/DogTreatsDescription}}",
+          "Type": "Object",
+          "Price": 20,
+          "Texture": "Mods/SunkenLace.PetsEnhancedMod/Textures/Items/ItemSprites",
+          "SpriteIndex": 1,
+          "ExcludeFromShippingCollection": true,
+          "IsDrink": false,
+          "CanBeGivenAsGift": false,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromFishingCollection": true
+        },
+        "SunkenLace.PetsEnhancedMod.CatTreats": {
+          "Name": "SunkenLace.PetsEnhancedMod.CatTreats",
+          "Displayname": "{{Sunken_Lace.PetsEnhancedCode/CatTreatsDisplayName}}",
+          "Description": "{{Sunken_Lace.PetsEnhancedCode/CatTreatsDescription}}",
+          "Type": "Object",
+          "Price": 20,
+          "Texture": "Mods/SunkenLace.PetsEnhancedMod/Textures/Items/ItemSprites",
+          "SpriteIndex": 0,
+          "ExcludeFromShippingCollection": true,
+          "IsDrink": false,
+          "CanBeGivenAsGift": false,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromFishingCollection": true
+        },
+        "SunkenLace.PetsEnhancedMod.CrunchyTreats": {
+          "Name": "SunkenLace.PetsEnhancedMod.CrunchyTreats",
+          "Displayname": "{{Sunken_Lace.PetsEnhancedCode/CrunchyTreatsDisplayName}}",
+          "Description": "{{Sunken_Lace.PetsEnhancedCode/CrunchyTreatsDescription}}",
+          "Type": "Object",
+          "Price": 20,
+          "Texture": "Mods/SunkenLace.PetsEnhancedMod/Textures/Items/ItemSprites",
+          "SpriteIndex": 10,
+          "ExcludeFromShippingCollection": true,
+          "IsDrink": false,
+          "CanBeGivenAsGift": false,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromFishingCollection": true
+        },
+        "SunkenLace.PetsEnhancedMod.LuxuryCollar": {
+          "Name": "SunkenLace.PetsEnhancedMod.LuxuryCollar",
+          "Displayname": "{{Sunken_Lace.PetsEnhancedCode/LuxuryCollarDisplayName}}",
+          "Description": "{{Sunken_Lace.PetsEnhancedCode/LuxuryCollarDescription}}",
+          "Type": "Ring",
+          "Category": -96,
+          "Price": 1000,
+          "Texture": "Mods/SunkenLace.PetsEnhancedMod/Textures/Items/ItemSprites",
+          "SpriteIndex": 4,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromFishingCollection": true,
+          "IsDrink": false,
+          "CanBeGivenAsGift": false,
+          "ExcludeFromShippingCollection": true,
+          "ContextTags": [ "prevent_loss_on_death", "item_type_ring" ]
+        },
+
+        "SunkenLace.PetsEnhancedMod.LightweightCollar": {
+          "Name": "SunkenLace.PetsEnhancedMod.LightweightCollar",
+          "Displayname": "{{Sunken_Lace.PetsEnhancedCode/LightweightCollarDisplayName}}",
+          "Description": "{{Sunken_Lace.PetsEnhancedCode/LightweightCollarDescription}}",
+          "Type": "Ring",
+          "Category": -96,
+          "Price": 1000,
+          "Texture": "Mods/SunkenLace.PetsEnhancedMod/Textures/Items/ItemSprites",
+          "SpriteIndex": 5,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromFishingCollection": true,
+          "IsDrink": false,
+          "CanBeGivenAsGift": false,
+          "ExcludeFromShippingCollection": true,
+          "ContextTags": [ "prevent_loss_on_death", "item_type_ring" ]
+        },
+        "SunkenLace.PetsEnhancedMod.RoughCollar": {
+          "Name": "SunkenLace.PetsEnhancedMod.RoughCollar",
+          "Displayname": "{{Sunken_Lace.PetsEnhancedCode/RoughCollarDisplayName}}",
+          "Description": "{{Sunken_Lace.PetsEnhancedCode/RoughCollarDescription}}",
+          "Type": "Ring",
+          "Category": -96,
+          "Price": 1000,
+          "Texture": "Mods/SunkenLace.PetsEnhancedMod/Textures/Items/ItemSprites",
+          "SpriteIndex": 6,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromFishingCollection": true,
+          "IsDrink": false,
+          "CanBeGivenAsGift": false,
+          "ExcludeFromShippingCollection": true,
+          "ContextTags": [ "prevent_loss_on_death", "item_type_ring" ]
+        },
+        "SunkenLace.PetsEnhancedMod.FloweryCollar": {
+          "Name": "SunkenLace.PetsEnhancedMod.FloweryCollar",
+          "Displayname": "{{Sunken_Lace.PetsEnhancedCode/FloweryCollarDisplayName}}",
+          "Description": "{{Sunken_Lace.PetsEnhancedCode/FloweryCollarDescription}}",
+          "Type": "Ring",
+          "Category": -96,
+          "Price": 1000,
+          "Texture": "Mods/SunkenLace.PetsEnhancedMod/Textures/Items/ItemSprites",
+          "SpriteIndex": 7,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromFishingCollection": true,
+          "IsDrink": false,
+          "CanBeGivenAsGift": false,
+          "ExcludeFromShippingCollection": true,
+          "ContextTags": [ "prevent_loss_on_death", "item_type_ring" ]
+        },
+        "SunkenLace.PetsEnhancedMod.SeagoingCollar": {
+          "Name": "SunkenLace.PetsEnhancedMod.SeagoingCollar",
+          "Displayname": "{{Sunken_Lace.PetsEnhancedCode/SeagoingCollarDisplayName}}",
+          "Description": "{{Sunken_Lace.PetsEnhancedCode/SeagoingCollarDescription}}",
+          "Type": "Ring",
+          "Category": -96,
+          "Price": 1000,
+          "Texture": "Mods/SunkenLace.PetsEnhancedMod/Textures/Items/ItemSprites",
+          "SpriteIndex": 8,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromFishingCollection": true,
+          "IsDrink": false,
+          "CanBeGivenAsGift": false,
+          "ExcludeFromShippingCollection": true,
+          "ContextTags": [ "prevent_loss_on_death", "item_type_ring" ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Tools",
+      "Entries": {
+        "SunkenLace.PetsEnhancedMod.PetFlute": {
+          "Name": "SunkenLace.PetsEnhancedMod.PetFlute",
+          "DisplayName": "{{Sunken_Lace.PetsEnhancedCode/PetFluteDisplayName}}",
+          "Description": "{{Sunken_Lace.PetsEnhancedCode/PetFluteDescription}}",
+          "ClassName": "GenericTool",
+          "SalePrice": 4000,
+          "Texture": "Mods/SunkenLace.PetsEnhancedMod/Textures/Items/ItemSprites",
+          "SpriteIndex": 3,
+          "UpgradeLevel": -1,
+          "SetProperties": {
+            "InstantUse": "true",
+            "IsEfficient": "true"
+          }
+        },
+        "SunkenLace.PetsEnhancedMod.PetManual": {
+          "Name": "SunkenLace.PetsEnhancedMod.PetManual",
+          "DisplayName": "{{Sunken_Lace.PetsEnhancedCode/PetManualDisplayName}}",
+          "Description": "{{Sunken_Lace.PetsEnhancedCode/PetManualDescription}}",
+          "ClassName": "GenericTool",
+          "SalePrice": 7000,
+          "Texture": "Mods/SunkenLace.PetsEnhancedMod/Textures/Items/ItemSprites",
+          "SpriteIndex": 2,
+          "UpgradeLevel": -1,
+          "SetProperties": {
+            "InstantUse": "true",
+            "IsEfficient": "true"
+          }
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/SunkenLace.PetsEnhancedMod/Textures/Items/ItemSprites",
+      "FromFile": "assets/ItemSprites.png",
+      "Priority": "Low"
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/SunkenLace.PetsEnhancedMod/PetConfig",
+      "FromFile": "pet.config.json",
+      "Priority": "Low"
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/SunkenLace.PetsEnhancedMod/PetDiet",
+      "FromFile": "pet.diet.json",
+      "Priority": "Low"
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/SunkenLace.PetsEnhancedMod/PetHatOffset",
+      "FromFile": "pet.hatoffset.json",
+      "Priority": "Low"
+    },
+    {
+      "Action": "Load",
+      "Target": "Animals/dog",
+      "FromFile": "assets/dog.png",
+      "Priority": "Low"
+    },
+    {
+      "Action": "Load",
+      "Target": "Animals/dog1",
+      "FromFile": "assets/dog1.png",
+      "Priority": "Low"
+    },
+    {
+      "Action": "Load",
+      "Target": "Animals/dog2",
+      "FromFile": "assets/dog2.png",
+      "Priority": "Low"
+    },
+    {
+      "Action": "Load",
+      "Target": "Animals/dog3",
+      "FromFile": "assets/dog3.png",
+      "Priority": "Low"
+    },
+    {
+      "Action": "Load",
+      "Target": "Animals/dog4",
+      "FromFile": "assets/dog4.png",
+      "Priority": "Low"
+    },
+    {
+      "Action": "Load",
+      "Target": "Animals/dog5",
+      "FromFile": "assets/dog5.png",
+      "Priority": "Low"
+    },
+    {
+      "Action": "Load",
+      "Target": "Animals/cat",
+      "FromFile": "assets/cat.png",
+      "Priority": "Low"
+    },
+    {
+      "Action": "Load",
+      "Target": "Animals/cat1",
+      "FromFile": "assets/cat1.png",
+      "Priority": "Low"
+    },
+    {
+      "Action": "Load",
+      "Target": "Animals/cat2",
+      "FromFile": "assets/cat2.png",
+      "Priority": "Low"
+    },
+    {
+      "Action": "Load",
+      "Target": "Animals/cat3",
+      "FromFile": "assets/cat3.png",
+      "Priority": "Low"
+    },
+    {
+      "Action": "Load",
+      "Target": "Animals/cat4",
+      "FromFile": "assets/cat4.png",
+      "Priority": "Low"
+    },
+    {
+      "Action": "Load",
+      "Target": "Animals/cat5",
+      "FromFile": "assets/cat5.png",
+      "Priority": "Low"
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/SunkenLace.PetsEnhancedMod/Textures/SwimmingFloats",
+      "FromFile": "assets/SwimmingFloats.png",
+      "Priority": "Low"
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/SunkenLace.PetsEnhancedMod/Textures/UI/UISprites",
+      "FromFile": "assets/UISprites.png",
+      "Priority": "Low"
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/SunkenLace.PetsEnhancedMod/Textures/AttackSprites",
+      "FromFile": "assets/AttackSprites.png",
+      "Priority": "Low"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/AudioChanges",
+      "Entries": {
+        "SunkenLace.PetsEnhancedMod.Sounds.BackpackEquiped": {
+          "ID": "SunkenLace.PetsEnhancedMod.Sounds.BackpackEquiped",
+          "Category": "Sound",
+          "FilePaths": [ "{{AbsoluteFilePath: assets/sounds/BackpackEquiped.wav}}" ],
+          "Looped": false
+        },
+        "SunkenLace.PetsEnhancedMod.Sounds.BackpackEquiped_inventory": {
+          "ID": "SunkenLace.PetsEnhancedMod.Sounds.BackpackEquiped_inventory",
+          "Category": "Sound",
+          "FilePaths": [ "{{AbsoluteFilePath: assets/sounds/BackpackEquiped_inventory.wav}}" ],
+          "Looped": false
+        },
+        "SunkenLace.PetsEnhancedMod.Sounds.SkillPerkLock_opened": {
+          "ID": "SunkenLace.PetsEnhancedMod.Sounds.SkillPerkLock_opened",
+          "Category": "Sound",
+          "FilePaths": [ "{{AbsoluteFilePath: assets/sounds/SkillPerkLock_opened.wav}}" ],
+          "Looped": false
+        },
+        "SunkenLace.PetsEnhancedMod.Sounds.SkillPerkLocked_select": {
+          "ID": "SunkenLace.PetsEnhancedMod.Sounds.SkillPerkLocked_select",
+          "Category": "Sound",
+          "FilePaths": [ "{{AbsoluteFilePath: assets/sounds/SkillPerkLocked_select.wav}}" ],
+          "Looped": false
+        },
+        "SunkenLace.PetsEnhancedMod.Sounds.PetDietList_scrolll00": {
+          "ID": "SunkenLace.PetsEnhancedMod.Sounds.PetDietList_scroll00",
+          "Category": "Sound",
+          "FilePaths": [ "{{AbsoluteFilePath: assets/sounds/PetDietList_scroll00.wav}}" ],
+          "Looped": false
+        },
+        "SunkenLace.PetsEnhancedMod.Sounds.PetDietList_scroll01": {
+          "ID": "SunkenLace.PetsEnhancedMod.Sounds.PetDietList_scroll01",
+          "Category": "Sound",
+          "FilePaths": [ "{{AbsoluteFilePath: assets/sounds/PetDietList_scroll01.wav}}" ],
+          "Looped": false
+        },
+        "SunkenLace.PetsEnhancedMod.Sounds.PetDietList_scroll02": {
+          "ID": "SunkenLace.PetsEnhancedMod.Sounds.PetDietList_scroll02",
+          "Category": "Sound",
+          "FilePaths": [ "{{AbsoluteFilePath: assets/sounds/PetDietList_scroll02.wav}}" ],
+          "Looped": false
+        },
+        "SunkenLace.PetsEnhancedMod.Sounds.Rotation_arrowClick00": {
+          "ID": "SunkenLace.PetsEnhancedMod.Sounds.Rotation_arrowClick00",
+          "Category": "Sound",
+          "FilePaths": [ "{{AbsoluteFilePath: assets/sounds/Rotation_arrowClick00.wav}}" ],
+          "Looped": false
+        },
+        "SunkenLace.PetsEnhancedMod.Sounds.Rotation_arrowClick01": {
+          "ID": "SunkenLace.PetsEnhancedMod.Sounds.Rotation_arrowClick01",
+          "Category": "Sound",
+          "FilePaths": [ "{{AbsoluteFilePath: assets/sounds/Rotation_arrowClick01.wav}}" ],
+          "Looped": false
+        },
+        "SunkenLace.PetsEnhancedMod.Sounds.Rotation_arrowClick02": {
+          "ID": "SunkenLace.PetsEnhancedMod.Sounds.Rotation_arrowClick02",
+          "Category": "Sound",
+          "FilePaths": [ "{{AbsoluteFilePath: assets/sounds/Rotation_arrowClick02.wav}}" ],
+          "Looped": false
+        },
+        "SunkenLace.PetsEnhancedMod.Sounds.OpeningBackpack_sound": {
+          "ID": "SunkenLace.PetsEnhancedMod.Sounds.OpeningBackpack_sound",
+          "Category": "Sound",
+          "FilePaths": [ "{{AbsoluteFilePath: assets/sounds/OpeningBackpack_sound.wav}}" ],
+          "Looped": false
+        },
+        "SunkenLace.PetsEnhancedMod.Sounds.ClosingBackpack_sound": {
+          "ID": "SunkenLace.PetsEnhancedMod.Sounds.ClosingBackpack_sound",
+          "Category": "Sound",
+          "FilePaths": [ "{{AbsoluteFilePath: assets/sounds/ClosingBackpack_sound.wav}}" ],
+          "Looped": false
+        },
+        "SunkenLace.PetsEnhancedMod.Sounds.PetDietList_closing": {
+          "ID": "SunkenLace.PetsEnhancedMod.Sounds.PetDietList_closing",
+          "Category": "Sound",
+          "FilePaths": [ "{{AbsoluteFilePath: assets/sounds/PetDietList_closing.wav}}" ],
+          "Looped": false
+        },
+        "SunkenLace.PetsEnhancedMod.Sounds.PetDietList_opening": {
+          "ID": "SunkenLace.PetsEnhancedMod.Sounds.PetDietList_opening",
+          "Category": "Sound",
+          "FilePaths": [ "{{AbsoluteFilePath: assets/sounds/PetDietList_opening.wav}}" ],
+          "Looped": false
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "SunkenLace.PetsEnhancedMod.LightweightCollar_recipe": "(O)428 3 (O)338 4 (O)768 10 (O)566 2/Home/SunkenLace.PetsEnhancedMod.LightweightCollar/false/none/", //3 cloth, 4 refined quartz, 2 celestine & 10 solar essence
+        "SunkenLace.PetsEnhancedMod.RoughCollar_recipe": "(O)428 3 (O)881 25 (O)769 10 (O)562 1/Home/SunkenLace.PetsEnhancedMod.RoughCollar/false/none/", //3 cloth, 25 bone fragments, 10 void essence & 1 tigerseye
+        "SunkenLace.PetsEnhancedMod.FloweryCollar_recipe": "(O)428 3 (O)Moss 50 (O)555 1 (O)538 1/Home/SunkenLace.PetsEnhancedMod.FloweryCollar/false/none/", //3 cloth, 50 moss, 1 nekoite & 1 alamite
+        "SunkenLace.PetsEnhancedMod.SeagoingCollar_recipe": "(O)428 3 (O)877 1 (O)560 1/Home/SunkenLace.PetsEnhancedMod.SeagoingCollar/false/none/" //3 cloth, 1 quality bobber & 1 ocean stone
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Mail",
+      "Entries": {
+        "SunkenLace.PetsEnhancedMod.GiftLightweightCollarRecipeMail": "{{Sunken_Lace.PetsEnhancedCode/MarnieGiftsLightweightCollarMail}}",
+        "SunkenLace.PetsEnhancedMod.GiftRoughCollarCollarRecipeMail": "{{Sunken_Lace.PetsEnhancedCode/MarnieGiftsRoughCollarMail}}",
+        "SunkenLace.PetsEnhancedMod.GiftFloweryCollarCollarRecipeMail": "{{Sunken_Lace.PetsEnhancedCode/MarnieGiftsFloweryCollarMail}}",
+        "SunkenLace.PetsEnhancedMod.GiftSeagoingCollarRecipeMail": "{{Sunken_Lace.PetsEnhancedCode/MarnieGiftsSeagoingCollarMail}}",
+        "SunkenLace.PetsEnhancedMod.GiftLuxuryCollarRecipeMail": "{{Sunken_Lace.PetsEnhancedCode/MarnieGiftsLuxuryCollarMail}}",
+        "SunkenLace.PetsEnhancedMod.GiftPetFluteMail": "{{Sunken_Lace.PetsEnhancedCode/MarnieGiftsPetFluteMail}}"
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+﻿{
+  "Name": "Pets Enhanced Mod - Asset Patching",
+  "Author": "Sunken_Lace",
+  "Version": "26.0.5",
+  "Description": "Asset Patching for Pet's Enhanced Mod.",
+  "UniqueID": "Sunken_Lace.PetsEnhancedContentPatcher",
+  "MinimumApiVersion": "4.1.6",
+  "UpdateKeys": [ "Nexus:24026" ],
+  "Dependencies": [
+    {
+      "UniqueID": "Sunken_Lace.PetsEnhancedCode",
+      "MinimumVersion": "26.0.5"
+    }
+  ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+
+
+}

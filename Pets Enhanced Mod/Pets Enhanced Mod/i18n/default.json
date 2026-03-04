@@ -1,0 +1,143 @@
+﻿{
+  "GMCM_keyboardSectionTitle": "Keyboard Settings",
+  "GMCM_keyboardSectionTitle_description": "Settings for Keyboard Mode(these only apply when the Pet UI is in use)",
+  "GMCM_gamepadSectionTitle": "Gamepad Settings",
+  "GMCM_gamepadSectionTitle_description": "Settings for Gamepad Mode(these only apply when the Pet UI is in use)",
+  "GMCM_GamepadLayoutOption": "Gamepad Layout",
+  "GMCM_GamepadLayoutOption_description": "Select the layout for Gamepad Mode(purely aesthetic)",
+  "GMCM_GrabItemButtonOption": "'Grab item' button",
+  "GMCM_GrabItemButtonOption_description": "Grabs items while inside the Pet Inventory. \nAlso works as confirmation button.",
+  "GMCM_StackItemButtonOption": "'Stack item' button",
+  "GMCM_StackItemButtonOption_description": "Stacks items while inside the Pet Inventory. \nAlso works as confirmation button.",
+  "GMCM_CloseUIButtonOption": "'Close UI' button",
+  "GMCM_CloseUIButtonOption_description": "Button for closing the Pet UI",
+  "GMCM_OpenPetInventoryButtonOption": "'Open Pet Inventory' button",
+  "GMCM_OpenPetInventoryButtonOption_description": "Quick access to the pet's Inventory (while inside the Pet UI)",
+  "GMCM_OpenPetStatusWindowButtonOption": "'Open Pet Status Window' \nbutton",
+  "GMCM_OpenPetStatusWindowButtonOption_description": "Quick access to the pet's Status Window (while inside the Pet UI)",
+  "GMCM_OpenPetHatSlotButtonOption": "'Open Pet Hat Slot' button",
+  "GMCM_OpenPetHatSlotButtonOption_description": "Quick access to the pet's Hat Slot (while inside the Pet UI)",
+  "GMCM_OpenPetAccessorySlotButtonOption": "'Open Pet Accessory Slot' \nbutton",
+  "GMCM_OpenPetAccessorySlotButtonOption_description": "Quick access to the pet's Accessory Slot (while inside the Pet UI)",
+  "GMCM_SubstituteButtonForLShiftOnGamepadOption": "Substitute button for Left \nShift",
+  "GMCM_SubstituteButtonForLShiftOnGamepadOption_description": "Left Shift + 'Grab Item button' sends selected items directly to different inventories. \nLeft Shift + 'Stack item button' picks half the stack of the selected item.",
+  "GMCM_UseL1R1ShortcutsOption": "Use L1 & R1 shortcuts",
+  "GMCM_UseL1R1ShortcutsOption_description": "Use L1 & R1 buttons as shorcuts for quickly changing the pet's background and/or facing direction while inside the Pet Status Window.",
+  "GMCM_keyboardActionButtom": "Action Button", //Text for the ActionButton Option for Generic Mod Config Menu mod.
+  "GMCM_keyboardActionButtomTooltip": "Button which lets you interact with a pet. \nIf this option doesn't have a value assigned, it'll use the settings from the current session.", //The tooltip that is shown when hovering over the ActionButtom option.
+  "GMCM_keyboardStatusTab_hotkey": "Pet Status Window hotkey", //Text for the Pet Status tab hotkey for Generic Mod Config Menu mod.
+  "GMCM_keyboardStatusTab_hotkeyTooltip": "Quick access to the pet's Status Window (while inside the Pet UI)", //The tooltip that is shown when hovering over the Pet Status tab hotkey option.
+  "GMCM_keyboardInventoryTab_hotkey": "Pet Inventory hotkey", //Text for the Pet Inventory tab hotkey for Generic Mod Config Menu mod.
+  "GMCM_keyboardInventoryTab_hotkeyTooltip": "Quick access to the pet's Inventory (while inside the Pet UI)", //The tooltip that is shown when hovering over the Pet Inventory tab hotkey option.
+  "GMCM_keyboardHatTab_hotkey": "Pet Hat Slot hotkey", //Text for the Pet Hat tab hotkey for Generic Mod Config Menu mod.
+  "GMCM_keyboardHatTab_hotkeyTooltip": "Quick access to the pet's Hat Slot (while inside the Pet UI)", //The tooltip that is shown when hovering over the Pet Hat tab hotkey option.
+  "GMCM_keyboardAccessoryTab_hotkey": "Pet Accessory Slot hotkey", //Text for the Pet Accessory tab hotkey for Generic Mod Config Menu mod.
+  "GMCM_keyboardAccessoryTab_hotkeyTooltip": "Quick access to the pet's Accessory Slot (while inside the Pet UI)", //The tooltip that is shown when hovering over the Pet Accessory tab hotkey option.
+  "GMCM_substituteDNumpadWithSymbols": "Substitute D-numpad icons", //Text for the Substitute D-numpad with symbols Option for Generic Mod Config Menu mod.
+  "GMCM_substituteDNumpadWithSymbolsTooltip": "Substitute the icons for the D Numpad keys with their equivalent symbols. \nUsed by the Pet Dialogue Window.", //The tooltip that is shown when hovering over the Substitute D-numpad with symbols option.
+  "PressAgainToConfirmText": "_Press again to confirm selection_",
+  "CommandPet_Question": "{{PetName}}!...", //Text displayed in both the "Command Pet Dialogue box" and "Waiting Command Dialogue box" at the top. Example: (Q)Lulu!...(R)Follow Me!.
+  "StopWaiting_Command": "...Stop waiting!", // Response for the "Stop waiting command", shown in the "Waiting" command dialogue box(This command makes the pet sit up and continue it's activities).
+  "Hunt_Command": "...Let's hunt!", //Response for the "Hunt Command", shown in the "Command Pet Dialogue box" after unlocking the "Hunt" Command(This command makes the pet hunt nearby monsters).
+  "FollowMe_Command": "...Follow me!", //Response for the "Follow Me Command", shown in the "Command Pet Dialogue box" after unlocking the "Follow" Command(This command makes the pet follow the player).
+  "Forage_Command": "...Search around!", //Response for the "Forage Command", shown in the "Command Pet Dialogue box" after unlocking the "Forage" Command(This command makes the pet search in the bushes for forage).
+  "StayStill_Command": "...Stay still!", // Response for the "StayStill command", shown in the "Waiting Command Dialogue box"(This command is just a "cancel" button).
+  "Fish_Command": "...Let's go fishing!", //Response for the "Fish Command", shown in the "Command Pet Dialogue box" after unlocking the "Fishing" Command(This command makes the pet catch fish near bodies of water).
+  "Wait_Command": "...Wait here!", //Wait command(sits the pet down).
+  "ReleaseCommand": "[Release]", //Response that leaves pet roam freely
+  "GoHome_Command": "...Go home!", //Response that sends pet back home 
+  "Nothing_Command": "...nothing.", //Average cancel button, belongs to the "Command Pet Dialogue box".
+  "PetHasBeenGivenTreatAlready_0": "Giving too many treats to your pet is not good for it's overall health.", //Message shown when trying to give too many treats to a pet at once (belongs to one of the 2 possible random messages).
+  "PetHasBeenGivenTreatAlready_1": "Remember not to give too many treats to your pet at once.", //Message shown when trying to give too many treats to a pet at once (belongs to one of the 2 possible random messages).
+  "PetDoesntWantMoreTreats_0": "{{PetName}} no longer wants to eat that.", //Message shown after giving too many hated treats to a pet (belongs to one of the 2 possible random messages).
+  "PetDoesntWantMoreTreats_1": "{{PetName}} doesn't want to eat that anymore.", //Message shown after giving too many hated treats to a pet (belongs to one of the 2 possible random messages).
+  "PetIsFullAlert": "{{PetName}} is full", //Message shown after trying to gift pet a energy positive treat while energy bar is full.
+  "AnotherPlayerIsInteractingWithPet": "{{PetName}} is interacting with {{PlayerName}} right now.", //Message shown after trying to interact with pet while another player is currently doing so.
+  "PetTricksUnlockedAlert": "{{PetName}} is now able to learn \"Skills\".", //Message shown when unlocking the trick learning mechanic.
+  "UnlockWaitCommandResponse": "[Free] - Unlock \"Wait\" skill.", //do translate the [free] part
+  "UnlockFollowMeCommandResponse": "[{{PetTreatIcon}}{{CommandPrice}}] - Unlock \"Follow\" skill.",
+  "UnlockHuntCommandResponse": "[{{PetTreatIcon}}{{CommandPrice}}] - Unlock \"Hunt\" skill.",
+  "UnlockForageCommandResponse": "[{{PetTreatIcon}}{{CommandPrice}}] - Unlock \"Forage\" skill.",
+  "UnlockFishingCommandResponse": "[{{PetTreatIcon}}{{CommandPrice}}] - Unlock \"Fishing\" skill.",
+  "ProgressFollowMeCommandResponse": "[{{PetTreatIcon}}{{CommandPrice}}] - Progress on the \"Follow\" lesson. - {{LessonProgress}}%",
+  "ProgressHuntCommandResponse": "[{{PetTreatIcon}}{{CommandPrice}}] - Progress on the \"Hunt\" lesson. - {{LessonProgress}}%",
+  "ProgressForageCommandResponse": "[{{PetTreatIcon}}{{CommandPrice}}] - Progress on the \"Forage\" lesson. - {{LessonProgress}}%",
+  "ProgressFishingCommandResponse": "[{{PetTreatIcon}}{{CommandPrice}}] - Progress on the \"Fishing\" lesson. - {{LessonProgress}}%",
+  "PetProgressedWithLesson_RandomAns_1": "{{PetName}} has made a progress in the {{LessonName}} lesson.", //Message shown after paying the price of a particular lesson and progressing with it (belongs to one of the 3 possible random messages).
+  "PetProgressedWithLesson_RandomAns_2": "{{PetName}} has progressed positively in the {{LessonName}} lesson.", //Message shown after paying the price of a particular lesson and progressing with it (belongs to one of the 3 possible random messages).
+  "PetProgressedWithLesson_RandomAns_3": "{{PetName}} has learned new things today, {{LessonName}} lesson progress up!", //Message shown after paying the price of a particular lesson and progressing with it (belongs to one of the 3 possible random messages).
+  "DontUnlockCommandsOption": "Cancel", //Cancel button...
+  "CommandUnlockedAlert": "{{PetName}} has learned the [{{CommandName}}] skill.", //Message shown after the pet learns a new command.
+  "PetNeedsABreakAlert": "{{PetName}} needs a break from training, wait for tomorrow to train again.", //Message show after trying to teach the pet twice in a single day a trick.
+  "NotEnoughTreatsAlert": "You don't have enough 'Treats' for this lesson.", //"Not enough money" type message..
+  "PetAlreadyFollowingFarmerAlert": "{{PetName}} is currently following {{FarmerName}}.", //Shown when pet is ordered to follow another team leader other than its current one.
+  "FollowMeLessonName": "Follow", //The {{LessonName}} in question...
+  "HuntLessonName": "Hunt", //The {{LessonName}} in question...
+  "ForageLessonName": "Forage", //The {{LessonName}} in question...
+  "WaitLessonName": "Wait", //The {{LessonName}} in question...
+  "FishingLessonName": "Fishing", //The {{LessonName}} in question...
+  "PetManual_DisplayName": "Pet Manual", //The display name of the "Pet Manual" item.
+  "PetManual_Description": "A manual on how to train your pet. \nUse it on a pet to help it learn new tricks.", //The description of the "Pet Manual" Item.
+  "PetBackpack_DisplayName": "Pet Backpack", //The display name of the "Pet Backpack" item.
+  "PetBackpack_Description": "Increases the amount of inventory slots on a pet. \nClick on a pet to equip it.", //The description of the "Pet Backpack" Item.
+  "DogTreats_DisplayName": "Dog Treats", //The display name of the "Dog Treats" item.
+  "DogTreats_Description": "'The best way to give love to your canine friend.'\nCan be given to dogs.", //The description of the "Dog Treats" item.
+  "CatTreats_DisplayName": "Cat Treats", //The display name of the "Cat Treats" item.
+  "CatTreats_Description": "'The best way to give love to your feline friend.'\nCan be given to cats.", //The description of the "Cat Treats" item.
+  "CrunchyTreats_DisplayName": "Crunchy Treats", //The display name of the "Crunchy Treats" item.
+  "CrunchyTreats_Description": "'Special treats adapted to the palate of the vast majority of species.'\nCan be given to pets.", //The description of the "Crunchy Treats" item.
+  "PetFlute_DisplayName": "Pet Flute", //The display name of the "Pet Flute" item.
+  "PetFlute_Description": "Call your pet from far away. \nOnly works on trained enough pets. \nUse it outside.", //The description of the "Pet Flute" item.
+  "ApplyButterflyPowderOption": "[Apply Butterfly Powder]", //Option shown in both the "Command Pet Dialogue box" and "Waiting Command Dialogue box" when the player has Butterfly Powder on its hands.
+  "CallPetQuestion": "Which pet to call?", //Text displayed at the top of the call pet dialogue box after using successfully the pet flute.
+  "PetFluteWarningNoTrainedPets": "You need at least one 'Fully-Trained' pet.", //Message shown when trying to use the pet flute if the player doesn't have at least one fully trained.
+  "TooManyPetsOnYourTeamPetFluteWarning": "Cannot use item. Team is already full.", //Message shown when trying to use pet flute while the player's pet team is full.
+  "TooManyPetsOnYourTeamWarning": "Team is already full.", //Message shown when trying to recruit a pet while the player's pet team is full.
+  "CannotUseItemHere": "Cannot use the item here.",
+  "NoPetsAvailable": "There are no available pets to call right now.", //Message shown when trying to use pet flute when there are no available pets (All valid pets are in use).
+  "NoSpaceToCallPet": "There isn't enough space to call a pet.", //Message shown when trying to use pet flute if there's no space around the player to call pet.
+  "MarnieGiftsPetFluteMail_content": "Dear @.^^There's something I forgot to give you along with yesterday's letter.^^It is called a '{{PetFluteItemName}}', and with this item you'll be able to call your pet from anywhere, as long as you have a fully 'trained' pet somewhere that can hear you.^^I hope you find it as useful as I did and that it helps you bond even further with your pets! ^^See you soon! ^-Marnie", //Marnie's letter in which she sends the pet flute. Translation instructions: @ = player's name, ^ = newline, ¦ = Switches between gendered versions of the letter. Male players see the text before ¦, and others see the text after it. Only the first instance is recognized. If the text doesn't contain it, all players see the same version.
+  "MarnieGiftsPetFluteMail_title": "Marnie gifts pet flute",
+  "MarnieGiftsLuxuryCollarMail_content": "Dear @.^^I'm happy to see you getting along with your pet. I see you've been doing pretty well lately; that's why I want to give you something as congratulations.^^This product is named '{{LuxuryCollarItemName}},' which your pet can use for a couple of benefits; it also has an adjustable buckle that fits any size.^^The product details it in more depth.^-Marnie", //Marnie's letter in which she sends a Luxury collar. Translation instructions: @ = player's name, ^ = newline, ¦ = Switches between gendered versions of the letter. Male players see the text before ¦, and others see the text after it. Only the first instance is recognized. If the text doesn't contain it, all players see the same version.
+  "MarnieGiftsLuxuryCollarMail_title": "Marnie gifts luxury collar",
+  "MarnieGiftsLightweightCollarMail_content": "Dear @.^^I'm happy to see you getting along with your pet, and because you seem like a pretty active person, I figured you might like this gift.^^The recipe is for a product named '{{LightweightCollarItemName}},' which your pet can use for a couple of benefits; it also has an adjustable buckle that fits any size.^^The recipe details it in more depth.^-Marnie", //Marnie's letter in which she sends the recipe for the Lightweight collar. Translation instructions: @ = player's name, ^ = newline, ¦ = Switches between gendered versions of the letter. Male players see the text before ¦, and others see the text after it. Only the first instance is recognized. If the text doesn't contain it, all players see the same version.
+  "MarnieGiftsLightweightCollarMail_title": "Marnie's lightweight collar recipe",
+  "MarnieGiftsRoughCollarMail_content": "Dear @.^^I'm happy to see you getting along with your pet, and because you seem pretty strong, I figured you might like this gift.^^The recipe is for a product named '{{RoughLookingCollarItemName}},' which your pet can use for a couple of benefits; it also has an adjustable buckle that fits any size.^^The recipe details it in more depth.^-Marnie", //Marnie's letter in which she sends the recipe for the Rough collar. Translation instructions: @ = player's name, ^ = newline, ¦ = Switches between gendered versions of the letter. Male players see the text before ¦, and others see the text after it. Only the first instance is recognized. If the text doesn't contain it, all players see the same version.
+  "MarnieGiftsRoughCollarMail_title": "Marnie's rough-looking collar recipe,",
+  "MarnieGiftsFloweryCollarMail_content": "Dear @.^^I'm happy to see you getting along with your pet. Since you seem to be good at foraging, I figured you might like this gift.^^The recipe is for a product named '{{FloweryCollarItemName}},' which your pet can use for a couple of benefits; it also has an adjustable buckle that fits any size.^^The recipe details it in more depth.^-Marnie", //Marnie's letter in which she sends the recipe for the Flowery collar. Translation instructions: @ = player's name, ^ = newline, ¦ = Switches between gendered versions of the letter. Male players see the text before ¦, and others see the text after it. Only the first instance is recognized. If the text doesn't contain it, all players see the same version.
+  "MarnieGiftsFloweryCollarMail_title": "Marnie's flowery collar recipe,",
+  "MarnieGiftsSeagoingCollarMail_content": "Dear @.^^I'm happy to see you getting along with your pet. Since you seem like a pretty skilled fisherman, I figured you might like this gift.^^The recipe is for a product named '{{SeagoingCollarItemName}},' which your pet can use for a couple of benefits; it also has an adjustable buckle that fits any size.^^The recipe details it in more depth.^-Marnie", //Marnie's letter in which she sends the recipe for the Seagoing collar. Translation instructions: @ = player's name, ^ = newline, ¦ = Switches between gendered versions of the letter. Male players see the text before ¦, and others see the text after it. Only the first instance is recognized. If the text doesn't contain it, all players see the same version.
+  "MarnieGiftsSeagoingCollarMail_title": "Marnie's seagoing collar recipe",
+  "LuxuryCollar_DisplayName": "Luxury Collar",
+  "LuxuryCollar_Description": "Increases team's chances of getting quality products and chances of getting double loot when foraging or fishing by 10%.\n\n- Pet exclusive",
+  "LightweightCollar_DisplayName": "Lightweight Collar",
+  "LightweightCollar_Description": "Boost the player's movement speed by 4%. \nReduces the holder's attack cooldown by 15%. \n\n- Pet exclusive",
+  "RoughCollar_DisplayName": "Rough-looking Collar",
+  "RoughCollar_Description": "Increases the holder's total damage output by 25% and critical strike chance by 10%.\n\n- Pet exclusive",
+  "FloweryCollar_DisplayName": "Flowery Collar",
+  "FloweryCollar_Description": "Boosts the holder's foraging skills. \nGreatly reduces the chances of getting trash when foraging.\n\n- Pet exclusive",
+  "SeagoingCollar_DisplayName": "Seagoing Collar",
+  "SeagoingCollar_Description": "Boosts the holder's fishing skills. \nGreatly reduces the chances of getting trash when fishing.\n\n- Pet exclusive",
+  "NewWaitPerkUnlocked_Alert": "{{PetName}} has improved its waiting skills",
+  "NewFollowPerkUnlocked_Alert": "{{PetName}} has improved its following skills",
+  "NewFishingPerkUnlocked_Alert": "{{PetName}} has improved its fishing skills",
+  "NewForagingPerkUnlocked_Alert": "{{PetName}} has improved its foraging skills",
+  "NewHuntingPerkUnlocked_Alert": "{{PetName}} has improved its hunting skills",
+  "SkillPerk_Description_0": "Increased energy gained per second while waiting.",
+  "SkillPerk_Description_1": "Reduced energy consumption when using skills.",
+  "SkillPerk_Description_2": "[Lucky] attribute unlocked.",
+  "SkillPerk_Description_3": "-15% skill cooldown.",
+  "SkillPerk_Description_4": "4% increase in player movement speed while [{{FollowSkillName}}] skill is in use.",
+  "SkillPerk_Description_5": "+80 Max Energy.",
+  "SkillPerk_Description_6": "75% chance to get silver quality products.",
+  "SkillPerk_Description_7": "50% chance to get gold quality products.",
+  "SkillPerk_Description_8": "25% chance to get iridium quality products.",
+  "SkillPerk_Description_9": "Tree searching unlocked.",
+  "SkillPerk_Description_10": "Shallow water fish unlocked.",
+  "SkillPerk_Description_11": "-10% Attack cooldown.",
+  "SkillPerk_Description_12": "+15% Crit chance.",
+  "SkillPerk_Description_13": "-15% Attack cooldown.",
+  "SkillPerk_Description_14": "30% chance to recover a portion of the player's health after slaying a monster.",
+  "FeatureOnDevelopment": "This feature is still on development.",
+  "PetReturnedHomeMessage": "{{PetName}} has returned home."
+}
