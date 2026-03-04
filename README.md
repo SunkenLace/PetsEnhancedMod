@@ -12,20 +12,6 @@ This mod is currently compatible with all mod packs out there, as such, feel fre
 This mod is also compatible with expansion maps and is able to interact with them no problem.
 
 
-What's new?
-
--New items sold at Marnie's Shop:
-
-﻿- A Pet Manual(Non-consumable)      [ Price: 7000g ]
- 
-﻿- Dog Treats(Consumable)                  [ Price: 30g ]
- 
-﻿- Cat Treats(Consumable)                   [ Price: 30g ]
- 
-﻿- Crunchy Treats(Consumable)                   [ Price: 30g ]
- 
-﻿- Pet Backpack(Consumable)              [ Price: 3000g ]
-
 Installation Instructions
 - Install the latest version of SMAPI.
 - Install the latest version of Content Patcher﻿ along with its requirements.
