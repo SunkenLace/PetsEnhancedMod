@@ -22,8 +22,6 @@ Installation Instructions
 
 Important
 ------------
-- This mod is a WIP (work in progress)!
-
 - Be aware that this mod is not compatible with Android.
 - Adding mods that seek a similar concept as this mod might cause some visual bugs, but they are compatible.
 - In case of misplaced hat positions on modded pets check if the mod you're adding has any form of hat placement configuration (be it Hats on Pets Plus or a Content pack for this mod)
